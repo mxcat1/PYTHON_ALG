@@ -10,11 +10,13 @@ def fibonaci():
     num1=1
     num2=0
     posi=50
-    while num1<=n.get() or num2<=n.get():
-        Label(ventana,text=str(num2) + " - " + str(num1) + " - ").place(x=10,y=posi)
+    conta=1
+    while conta<=n.get(): # or num2<=n.get():
+        Label(ventana,text=str(num2) + " - " + str(num1) + " - ").place(x=posi,y=100)
         num2=num2+num1
         num1=num2+num1
-        posi=posi+30
+        posi=posi+80
+        conta+=2
     
 
 ventana=Tk()
