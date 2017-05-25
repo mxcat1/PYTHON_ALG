@@ -5,7 +5,7 @@ Created on 8 may. 2017
 '''
 import tkinter
 from tkinter import *
-import TAREA_LUIGUI.combifuncion
+import combifuncion
 
 def constructor():
     global num1
@@ -14,8 +14,8 @@ def constructor():
     num2 = IntVar()
 
 def combinatoria1():
-    print(TAREA_LUIGUI.combifuncion.cobinatoria(num1.get(),num2.get()))
-    Label(frmcombinatoria,text=TAREA_LUIGUI.combifuncion.cobinatoria(num1.get(),num2.get())).place(x=150,y=120)
+    print(combifuncion.cobinatoria(num1.get(),num2.get()))
+    Label(frmcombinatoria,text=combifuncion.cobinatoria(num1.get(),num2.get())).place(x=150,y=120)
     
 
 
