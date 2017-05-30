@@ -25,7 +25,7 @@ app=QApplication(sys.argv)
 #Creacion de un objeto de la clase
 _ventana=Ventana()
 #Mostrar Ventana
-_ventana.shççow()
+_ventana.show()
 #ejecutar la aplicacion
 app.exec_()
     
